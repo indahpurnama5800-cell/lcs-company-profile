@@ -1,20 +1,21 @@
-# 🌐 LCS Company Profile Website
+# 🌐 Company Profile
 
-Website Company Profile yang dikembangkan menggunakan **Laravel 12** untuk menampilkan informasi perusahaan secara profesional, modern, dan responsif.
+Website Company Profile yang dibangun menggunakan **Laravel 12** dengan tampilan modern, responsif, dan profesional.
 
 ## 📌 Deskripsi
 
-Website ini dibuat sebagai media informasi perusahaan agar pengunjung dapat mengenal profil perusahaan, layanan yang ditawarkan, pengalaman kerja, portofolio proyek, serta menghubungi perusahaan melalui halaman kontak.
+Project ini merupakan website company profile yang bertujuan untuk memperkenalkan perusahaan melalui beberapa halaman utama, seperti Beranda, Tentang Kami, Layanan, Pengalaman, Portofolio, dan Hubungi Kami.
 
 ## ✨ Fitur
 
-- 🏠 Beranda (Home)
-- 👨‍💼 Tentang Kami (About Us)
-- 💼 Layanan (Services)
-- ⭐ Pengalaman (Experience)
-- 📁 Portofolio (Portfolio)
-- 📞 Hubungi Kami (Contact)
-- 📍 Footer Informasi
+- 🏠 Beranda
+- 👨‍💼 Tentang Kami
+- 💼 Layanan
+- ⭐ Pengalaman
+- 📁 Portofolio
+- 📞 Hubungi Kami
+- 📍 Footer
+- 📱 Responsive Design
 
 ## 🛠️ Teknologi yang Digunakan
 
@@ -52,74 +53,65 @@ Website ini dibuat sebagai media informasi perusahaan agar pengunjung dapat meng
 
 ## 🚀 Cara Menjalankan Project
 
-### 1. Clone Repository
+### Clone Repository
 
 ```bash
-git clone https://github.com/username/lcs-company-profile.git
+git clone https://github.com/USERNAME/companyprofile.git
 ```
 
-### 2. Masuk ke Folder Project
+### Masuk ke Folder Project
 
 ```bash
-cd lcs-company-profile
+cd companyprofile
 ```
 
-### 3. Install Dependency
+### Install Dependency
 
 ```bash
 composer install
-```
-
-```bash
 npm install
 ```
 
-### 4. Salin File Environment
+### Konfigurasi Environment
 
 ```bash
 cp .env.example .env
-```
-
-### 5. Generate Application Key
-
-```bash
 php artisan key:generate
 ```
 
-### 6. Konfigurasi Database
-
 Sesuaikan konfigurasi database pada file `.env`.
 
-### 7. Jalankan Migration
+### Jalankan Migration
 
 ```bash
 php artisan migrate
 ```
 
-### 8. Jalankan Server Laravel
+### Jalankan Project
+
+Terminal 1
 
 ```bash
 php artisan serve
 ```
 
-### 9. Jalankan Vite
+Terminal 2
 
 ```bash
 npm run dev
 ```
 
-Website dapat diakses melalui:
+Buka browser:
 
 ```
 http://127.0.0.1:8000
 ```
 
-## 📂 Struktur Halaman
+## 📁 Struktur Halaman
 
 ```
 Home
-├── Hero Section
-├── About Us
+├── About
 ├── Services
 ├── Experience
 ├── Portfolio
