@@ -31,25 +31,25 @@ Project ini merupakan website company profile yang bertujuan untuk memperkenalka
 ## 📷 Tampilan Website
 
 ### Beranda
-![Beranda](images/beranda.png)
+![Beranda](companyprofile/beranda.png)
 
 ### Tentang Kami
-![Tentang Kami](images/tentangkami.png)
+![Tentang Kami](companyprofile/tentangkami.png)
 
 ### Layanan
-![Layanan](images/layanan.png)
+![Layanan](companyprofile/layanan.png)
 
 ### Pengalaman
-![Pengalaman](images/pengalaman.png)
+![Pengalaman](companyprofile/pengalaman.png)
 
 ### Portofolio
-![Portofolio](images/portofolio.png)
+![Portofolio](companyprofile/portofolio.png)
 
 ### Hubungi Kami
-![Hubungi Kami](images/hubungi.png)
+![Hubungi Kami](companyprofile/hubungi.png)
 
 ### Footer
-![Footer](images/footer.png)
+![Footer](companyprofile/footer.png)
 
 ## 🚀 Cara Menjalankan Project
 
